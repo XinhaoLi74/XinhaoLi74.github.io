@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Xinhao Li"
-  avatar           : "/image/bio-photo.png"
+  avatar           : "bio-photo.png"
   bio              : "3rd Year Graduate Student at NCSU; Cheminformatics; Machine Learning; Deep learning; NLP"
   location         : "Raleigh, NC"
   employer         :
