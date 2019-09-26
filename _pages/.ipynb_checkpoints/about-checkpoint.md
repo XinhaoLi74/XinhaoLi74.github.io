@@ -1,7 +1,7 @@
 ---
-permalink: /
-#layout: archive
+
 title: "About"
+permalink: /about/
 
 ---
 
