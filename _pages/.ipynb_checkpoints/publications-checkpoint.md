@@ -9,7 +9,8 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+{% include base_path %}
 
-Shanyan MoXinhao LiJiaxi Xu.    
-"In Situ-Generated Iodonium Ylides as Safe Carbene Precursors for the Chemoselective Intramolecular Buchner Reaction"      
-_J. Org. Chem_ (2014). doi: [10.1021/jo501628h](https://doi.org/10.1021/jo501628h).
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
