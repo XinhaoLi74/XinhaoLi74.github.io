@@ -9,11 +9,8 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-**Xinhao Li** and Denis Fourches. "Hierarchical H-QSAR Modeling Approach for Integrating Binary/Multi Classification and Regression Models of Acute Oral Systemic Toxicity"
+**Xinhao Li**, Nicole Kleinstreuer and Denis Fourches. "Hierarchical H-QSAR Modeling Approach for Integrating Binary/Multi Classification and Regression Models of Acute Oral Systemic Toxicity"
 _Chemical Research in Toxicology_. *Under Review*. [Poster](http://XinhaoLi74.github.io/files/HQSAR_poster.pdf)
-
-**Xinhao Li**, Nicole Kleinstreuer, and Denis Fourches. "Hierarchical H-QSAR Modeling Approach for Integrating Binary/Multi Classification and Regression Models of Acute Oral Systemic Toxicity"
-_Chemical Research in Toxicology_. *Under Review*.
 
 **Xinhao Li** and Jiaxi Xu. "Determination on temperature gradient of different polar reactants in reaction mixture under microwave irradiation with molecular probe"
 _Tetrahedron_ (2016). doi: [10.1016/j.tet.2016.07.041](https://doi.org/10.1016/j.tet.2016.07.041).
