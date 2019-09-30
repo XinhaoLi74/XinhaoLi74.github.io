@@ -4,6 +4,7 @@ date: 2019-09-29
 permalink: /posts/2019/09/interactive-map/
 tags:
   - visualization
+  - python
 
 ---
 
@@ -256,3 +257,5 @@ Save is as a ```html``` file. Please [click](http://XinhaoLi74.github.io/images/
 output_file("interactive_map.html")
 save(interactive_map)
 ```
+
+All the code and data are available on my [github](https://github.com/XinhaoLi74/Bokeh-Interactive-Plots/blob/master/2019-09-29-interactive_map.ipynb).
