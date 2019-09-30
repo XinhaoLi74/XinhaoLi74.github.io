@@ -192,7 +192,7 @@ Use t-SNE to reduce the dimension of fetures into 2 for visualization.
 tsne = TSNE(random_state=0).fit_transform(ECFP4_fps)
 ```
 
-Define some functions for interactive visualization. Some of the code are inspried by [mol2vec_notebook](https://github.com/samoturk/mol2vec_notebooks/tree/master/Notebooks).
+Define some functions for interactive visualization. Some of the codes are from [mol2vec_notebook](https://github.com/samoturk/mol2vec_notebooks/tree/master/Notebooks).
 
 
 ```python
