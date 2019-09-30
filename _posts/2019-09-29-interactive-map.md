@@ -1,7 +1,7 @@
 ---
 title: 'Create an Interactive Visualization for Approved Small Molecule Drugs'
 date: 2019-09-29
-permalink: /posts/2019/09/interactive_map/
+permalink: /posts/2019/09/interactive-map/
 tags:
   - visualization
 
