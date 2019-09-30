@@ -7,7 +7,7 @@ tags:
 
 ---
 
-In the post, I want to generate an [interactive visualization](http://XinhaoLi74.github.io/images/samll_molecule_drug_ECFP4.html) of a chemical space. Each point in the map represents a mol
+In the post, I want to generate an [interactive visualization](http://XinhaoLi74.github.io/images/samll_molecule_drug_ECFP4.html) of a chemical space. Each point in the map represents a molecule and close points have similar structures. When you move you mouse on a point, the name and structure of the moelcule will show up.
 
 ```python
 from chembl_webresource_client.new_client import new_client
