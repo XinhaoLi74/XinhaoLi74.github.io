@@ -7,6 +7,8 @@ tags:
 
 ---
 
+In the post, I want to generate an [interactive visualization](http://XinhaoLi74.github.io/images/samll_molecule_drug_ECFP4.html) of a chemical space. Each point in the map represents a mol
+
 ```python
 from chembl_webresource_client.new_client import new_client
 import pandas as pd
