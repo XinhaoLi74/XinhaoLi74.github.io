@@ -1,4 +1,11 @@
+---
+title: 'Create an Interactive Visualization for Approved Small Molecule Drugs'
+date: 2019-09-29
+permalink: /posts/2019/09/interactive_map/
+tags:
+  - visualization
 
+---
 
 ```python
 from chembl_webresource_client.new_client import new_client
@@ -241,7 +248,7 @@ interactive_map.circle('x', 'y', size=5, source=source, fill_alpha=0.2);
 
 ```
 
-Save is as a ```html``` file. Please [click](http://XinhaoLi74.github.io/iamges/samll_molecule_drug_ECFP4.html) here to check the generated map. 
+Save is as a ```html``` file. Please [click](http://XinhaoLi74.github.io/images/samll_molecule_drug_ECFP4.html) here to check the generated map. 
 ```python
 output_file("interactive_map.html")
 save(interactive_map)
