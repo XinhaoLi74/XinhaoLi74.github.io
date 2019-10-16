@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Chemistry, Beijing University of Chemical Technology, 2013
-* M.S. in Chemistry, Beijing University of Chemical Technology, 2016
 * Ph.D in Chemistry, North Carolina State University, 2021 (expected)
+* M.S. in Chemistry, Beijing University of Chemical Technology, 2016
+* B.S. in Chemistry, Beijing University of Chemical Technology, 2013
 
 Skills
 ======
