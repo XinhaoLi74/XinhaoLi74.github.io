@@ -22,40 +22,40 @@ Summary
 
 Research Interests by Keyworks
 ======
-    •	Cheminformatics
-    •	Computational Toxicology
-    •	Machine Learning/Deep learning
-    •	Big Data Mining, Analysis, Visulzation	
-    •	QSAR modeling
-    •	Computer-Aided Drug Design
-    •	Virtual Screening
-    •	Software Development
+* Cheminformatics
+* Computational Toxicology
+* Machine Learning/Deep learning
+* Big Data Mining, Analysis, Visulzation	
+* QSAR modeling
+* Computer-Aided Drug Design
+* Virtual Screening
+* Software Development
 
 Research
 ======
-    Graduate Research Assistant						Fourches Lab, NCSU
-    Advisor: Denis Fourches 							Aug 2017 - Current
-    •	Development of Novel Quantitative Structure-Property/Activity Relationship (QSPR/QSAR) Modeling Methodologies:
-        o	MolPMoFiT: An inductive transfer learning method for QSRR/QSAR modeling. MolPMoFiT pre-trained a universal molecular structure prediction model using one million bioactive molecules from ChEMBL and then fine-tuned it for various QSPR/QSAR tasks. 
-        o	Hierarchical QSAR: An effective ensemble modeling method that Integrating binary/multi classification and regression models for predicting acute oral systemic toxicity.
-    •	Software Development:
-        o	CryptoChem:  A novel cryptographic and data storage method based on cheminformatics, machine learning, and big chemical data. Two independent software were developed: MOLWRITE and MOLREAD. MOLWRITE encrypts the text/image data into chemical message and MOLREAD decrypts the encoded chemical message back to text/image.
+
+* Development of Novel Quantitative Structure-Property/Activity Relationship (QSPR/QSAR) Modeling Methodologies:
+    * MolPMoFiT: An inductive transfer learning method for QSRR/QSAR modeling. MolPMoFiT pre-trained a universal molecular structure prediction model using one million bioactive molecules from ChEMBL and then fine-tuned it for various QSPR/QSAR tasks. 
+    * Hierarchical QSAR: An effective ensemble modeling method that Integrating binary/multi classification and regression models for predicting acute oral systemic toxicity.
+* Software Development:
+    * CryptoChem:  A novel cryptographic and data storage method based on cheminformatics, machine learning, and big chemical data. Two independent software were developed: MOLWRITE and MOLREAD. MOLWRITE encrypts the text/image data into chemical message and MOLREAD decrypts the encoded chemical message back to text/image.
 
 Education
 ======
-    PhD in Chemistry	North Carolina State University		Raleigh, NC		2017 – Current
-    MS in Chemistry	Beijing University of Chemical Technology	Beijing, China		2013 –2016
-    BS in Chemistry	Beijing University of Chemical Technology	Beijing, China		2009 –2013
+* PhD in Chemistry	    North Carolina State University		    Raleigh, NC		    2017 – Current
+* MS in Chemistry	Beijing University of Chemical Technology	Beijing, China		2013 –2016
+* BS in Chemistry	Beijing University of Chemical Technology	Beijing, China		2009 –2013
     
 Skills
 ======
-    •	Language: English & Mandarin (native)	•	Programming Language: Python & R
-    •	Cheminformatics Toolkits: KNIME, RDKit,  Schrodinger
-    •	Machine Learning Toolkits: Pytorch, Keras, Scikit-Learn, Jyperter Notebook
+* Language: English & Mandarin (native)	
+* Programming Language: Python & R
+* Cheminformatics Toolkits: KNIME, RDKit,  Schrodinger
+* Machine Learning Toolkits: Pytorch, Keras, Scikit-Learn, Jyperter Notebook
     
 Courses
 ======
-    •	deeplearning.ai: Deep Learning Specialization
+* deeplearning.ai: Deep Learning Specialization
 
 
 Skills
