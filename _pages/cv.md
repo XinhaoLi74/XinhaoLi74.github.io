@@ -58,10 +58,7 @@ Courses
 * deeplearning.ai: Deep Learning Specialization
 
 
-Skills
-======
-* Programming:  Python, R, Linux, Pytorch, RDKit, Keras, KNIME, Scikit-Learn
-* Toolkit:  Cheminformatics, Machine Learning, Deep Learning, NLP, Data Curation, Data Visualization
+
 
 
 
