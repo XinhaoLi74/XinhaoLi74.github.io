@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Xinhao Li"
   avatar           : "bio-photo.png"
-  bio              : "3rd Year Graduate Student at NCSU; Cheminformatics; Machine Learning; Deep learning; NLP"
+  bio              : "Ph.D. candidate at NCSU; Cheminformatics; Machine Learning; Deep learning; NLP"
   location         : "Raleigh, NC"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=HPwA2qUAAAAJ&hl=en"
-  email            :
+  email            : "xli74@ncsu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
