@@ -36,7 +36,7 @@ plt.show()
 ```
 
 
-![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_3_0.png)
+![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_3_0.png)
 
 
 ### Method 2: Create a graph by calling DGL interface
@@ -68,7 +68,7 @@ plt.show()
 ```
 
 
-![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_5_0.png)
+![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_5_0.png)
 
 
 
@@ -85,7 +85,7 @@ plt.show()
 ```
 
 
-![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_6_0.png)
+![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_6_0.png)
 
 
 
@@ -443,7 +443,7 @@ plt.show()
 ```
 
 
-![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_45_0.png)
+![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_45_0.png)
 
 
 ### Convert a SMILES to `DGLGraph` with features
@@ -462,7 +462,7 @@ mol
 
 
 
-![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_48_0.png)
+![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_48_0.png)
 
 
 
