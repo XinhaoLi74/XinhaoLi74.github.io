@@ -1,6 +1,6 @@
 ---
 title: 'DGL Walkthrough 01: Data'
-date: 2019-09-29
+date: 2019-12-21
 permalink: /posts/2019/12/DGL-Basic01-Data/
 tags:
   - Molecular Graph
