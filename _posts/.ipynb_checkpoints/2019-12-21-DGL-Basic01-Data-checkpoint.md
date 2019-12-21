@@ -9,12 +9,12 @@ tags:
 
 ---
 
-A walk through of [`DGL` library](https://docs.dgl.ai/index.html). Deep Graph library (DGL) is a Python package built for easy implementation of graph neural network model family on top of existing deep learning framework (e.g., Pytorch, MXNet etc.). More detials can be found on the official website.
+A walk through of [`DGL`](https://docs.dgl.ai/index.html) library. Deep Graph library (DGL) is a Python package built for easy implementation of graph neural network model family on top of existing deep learning framework (e.g., Pytorch, MXNet etc.). More detials can be found on the official website.
 
 ## 1. Create a Graph
 No surprise, the data used for graph neural netowrk is graph. Let's see how to create a graph in `DGL`.
 
-### Method 1: Create a graph from `networkx` and convert it into a `DGLGraph`
+### Method 1: Create a graph from `networkx` and convert it into a `DGL Graph`
 
 note: `DGLGraph` is always directional
 
@@ -36,7 +36,7 @@ plt.show()
 ```
 
 
-![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_3_0.png)
+![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_3_0.png)
 
 
 ### Method 2: Create a graph by calling DGL interface
@@ -68,7 +68,7 @@ plt.show()
 ```
 
 
-![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_5_0.png)
+![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_5_0.png)
 
 
 
@@ -85,7 +85,7 @@ plt.show()
 ```
 
 
-![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_6_0.png)
+![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_6_0.png)
 
 
 
@@ -443,7 +443,7 @@ plt.show()
 ```
 
 
-![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_45_0.png)
+![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_45_0.png)
 
 
 ### Convert a SMILES to `DGLGraph` with features
@@ -462,7 +462,7 @@ mol
 
 
 
-![png](../images/DGL-Basic01-Data_files/DGL-Basic01-Data_48_0.png)
+![png](/images/DGL-Basic01-Data_files/DGL-Basic01-Data_48_0.png)
 
 
 
