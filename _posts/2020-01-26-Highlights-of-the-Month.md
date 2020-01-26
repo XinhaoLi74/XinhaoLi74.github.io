@@ -1,6 +1,6 @@
 ---
 title:  "Highlights of the Month: January 2020"
-date: 2020-01-27
+date: 2020-01-26
 permalink: /posts/2020/01/Highlights-of-the-Month/
 tags:
   - Highlights of the Month
