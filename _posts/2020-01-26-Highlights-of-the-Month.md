@@ -2,6 +2,8 @@
 title:  "Highlights of the Month: January 2020"
 date: 2020-01-26
 permalink: /posts/2020/01/Highlights-of-the-Month/
+categories: 
+  - Jekyll
 tags:
   - Highlights of the Month
 ---
@@ -18,9 +20,9 @@ One of the main trends in machine learning recently is the rise of transfer lear
 ### *De Novo* Molecular Design
 (1) De novo generation of hit-like molecules from gene expression signatures using artificial intelligence [[Nature Communications]](https://www.nature.com/articles/s41467-019-13807-w) [[ChemRxiv]](https://chemrxiv.org/articles/De_Novo_Generation_of_Hit-like_Molecules_from_Gene_Expression_Signatures_Using_Artificial_Intelligence/7294388/1)
 
-(2) Bidirectional Molecule Generation with Recurrent Neural Networks [[J. Chem. Inf. Model.]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00943) | [[Github]](https://github.com/ETHmodlab/BIMODAL)
+(2) Bidirectional Molecule Generation with Recurrent Neural Networks [[J. Chem. Inf. Model.]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00943) [[Github]](https://github.com/ETHmodlab/BIMODAL)
 
-(3) DeepScaffold: A Comprehensive Tool for Scaffold-Based De Novo Drug Discovery Using Deep Learning [[J. Chem. Inf. Model.]](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00727) | [[arXiv]](https://arxiv.org/abs/1908.07209) | [[Github]](github.com/deep-scaffold)
+(3) DeepScaffold: A Comprehensive Tool for Scaffold-Based De Novo Drug Discovery Using Deep Learning [[J. Chem. Inf. Model.]](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00727)  [[arXiv]](https://arxiv.org/abs/1908.07209) [[Github]](github.com/deep-scaffold)
 
 ### New Datasets
 [The Natural Products Atlas: An Open Access Knowledge Base for Microbial Natural Products Discovery](https://pubs.acs.org/doi/10.1021/acscentsci.9b00806). A collection of **24,594 microbial natural products**  (The Natural Products Atlas, www.npatlas.org) contains referenced data for structure, compound names, source organisms, isolation references, total syntheses, and instances of structural reassignment. 
