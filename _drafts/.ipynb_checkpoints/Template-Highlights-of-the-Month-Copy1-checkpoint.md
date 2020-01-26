@@ -1,7 +1,8 @@
 ---
 title:  "Highlights of the Month: January 2020"
-date: 2020-01-30
-
+header:
+  teaser: "unsplash-gallery-image-2-th.jpg"
+date: 
 tags:
   - Highlights of the Month
 ---
