@@ -12,8 +12,7 @@ author_profile: true
 **Xinhao Li** and Denis Fourches. "Inductive Transfer Learning for Molecular Activity Prediction: Next-Gen QSAR Models with MolPMoFiT"
 [_ChemRxiv_  ](https://chemrxiv.org/articles/Inductive_Transfer_Learning_for_Molecular_Activity_Prediction_Next-Gen_QSAR_Models_with_MolPMoFiT/9978743) (2019)
 
-**Xinhao Li**, Nicole Kleinstreuer and Denis Fourches. "Hierarchical H-QSAR Modeling Approach for Integrating Binary/Multi Classification and Regression Models of Acute Oral Systemic Toxicity"
-_Chemical Research in Toxicology_. *Under Revision*. [Poster](http://XinhaoLi74.github.io/files/HQSAR_poster.pdf)
+**Xinhao Li**, Nicole Kleinstreuer and Denis Fourches. "Hierarchical Quantitative Structure–Activity Relationship Modeling Approach for Integrating Binary, Multiclass, and Regression Models of Acute Oral Systemic Toxicity" [_Chemical Research in Toxicology_](https://pubs.acs.org/doi/10.1021/acs.chemrestox.9b00259) (2020).
 
 **Xinhao Li** and Jiaxi Xu. "Determination on temperature gradient of different polar reactants in reaction mixture under microwave irradiation with molecular probe"
 _Tetrahedron_ (2016). doi: [10.1016/j.tet.2016.07.041](https://doi.org/10.1016/j.tet.2016.07.041).
