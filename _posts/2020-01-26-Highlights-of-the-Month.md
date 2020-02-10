@@ -2,8 +2,7 @@
 title:  "Highlights of the Month: January 2020"
 date: 2020-01-26
 permalink: /posts/2020/01/Highlights-of-the-Month/
-categories: 
-  - Jekyll
+
 tags:
   - Highlights of the Month
 ---
