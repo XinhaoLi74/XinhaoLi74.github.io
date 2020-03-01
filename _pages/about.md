@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in the Department of Chemistry at North Carolina State University. I work in [Fourches's lab](https://www.fourches-laboratory.com/). I am interested in applying machine learning, especially deep leaning, techniques for chemistry.
+I am a Ph.D. candidate in the Department of Chemistry at North Carolina State University. I work in [Fourches's lab](https://www.fourches-laboratory.com/). I am interested in applying machine learning, especially deep leaning, techniques for chemistry. 
