@@ -12,7 +12,7 @@ redirect_from:
 [Download PDF Version](http://XinhaoLi74.github.io/files/Xinhao_CV_202003.pdf)
 ==
 
-Connect
+Contact
 ======
 E-mail: xli74@ncsu.edu
 
