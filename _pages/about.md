@@ -23,5 +23,5 @@ My primary research interests involve:
 
 2. Quantitative Structure–Activity Relationships (QSAR) are statistical, data-driven models that establish quantitative links between an experimental activity (e.g., binding affinity, inhibition potency) and chemical structures. QSAR models are typically developed using supervised machine learning algorithms and further validated using a variety of statistical procedures and metrics. Good model performance usually requires a decent amount of labeled data, but collecting labels is expensive and hard to be scaled up. Thus, it would be highly relevant to utilize the tremendous unlabeled compounds from publicly-available datasets. Self-supervised learning opens up a huge opportunity for better utilizing unlabeled data. **Mol**ecular Prediction Model Fine-Tuning (**MolPMoFiT**) approach, an effective transfer learning method based on **self-supervised pre-training + task-specific fine-tuning** for QSAR modeling ([_ChemRxiv_ ](https://chemrxiv.org/articles/Inductive_Transfer_Learning_for_Molecular_Activity_Prediction_Next-Gen_QSAR_Models_with_MolPMoFiT/9978743)). 
 
-![MolPMolFiT Overview](/images/MolPMolFiT.png)
+![MolPMolFiT Overview](/images/MolPMolFiT.PNG)
 
