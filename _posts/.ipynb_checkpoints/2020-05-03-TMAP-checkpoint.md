@@ -182,21 +182,6 @@ faerun.add_tree("ESOL_tree", {"from": s, "to": t}, point_helper="ESOL")
 faerun.plot(template="smiles", notebook_height=750)
 ```
 
-
-
-<iframe
-    width="100%"
-    height="750"
-    src="./index.html"
-    frameborder="0"
-    allowfullscreen
-></iframe>
-
-
-
-
-<a href='./index.html' target='_blank'>./index.html</a><br>
-
 A screen capture of the interactive plot.
 
 ![png](/images/TMAP/Capture_1.PNG)
@@ -256,22 +241,6 @@ faerun.add_tree("ESOL_tree", {"from": s, "to": t}, point_helper="ESOL")
 # Choose the "smiles" template to display structure on hover
 faerun.plot(template="smiles", notebook_height=750)
 ```
-
-
-
-<iframe
-    width="100%"
-    height="750"
-    src="./index.html"
-    frameborder="0"
-    allowfullscreen
-></iframe>
-
-
-
-
-<a href='./index.html' target='_blank'>./index.html</a><br>
-
 
 A screen capture of the interactive plot.
 
@@ -347,20 +316,6 @@ faerun.add_tree("ESOL_tree", {"from": s, "to": t}, point_helper="ESOL")
 # Choose the "smiles" template to display structure on hover
 faerun.plot(template="smiles", notebook_height=750)
 ```
-
-
-
-<iframe
-    width="100%"
-    height="750"
-    src="./index.html"
-    frameborder="0"
-    allowfullscreen
-></iframe>
-
-
-
-<a href='./index.html' target='_blank'>./index.html</a><br>
 
 A screen capture of the interactive plot.
 
