@@ -11,7 +11,7 @@ The notebook version is [here](https://github.com/XinhaoLi74/Cheminformatics-Not
 
 ## 1. What is TMAP?
 
-TMAP is a really cool graph interactive visualization. Examples can be found [here](http://tmap.gdb.tools/#ex-coil).
+TMAP is a really cool interactive visualization for big data. Examples can be found [here](http://tmap.gdb.tools/#ex-coil).
 
 Tree MAP (TMAP) is an algorithm developed by Dr. [Probst](https://twitter.com/skepteis) for [visualization of very large high-dimensional data sets as minimum spanning trees](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-0416-x).
 
@@ -25,22 +25,23 @@ The four projects mentioned are:
 3. [FUn: a framework for interactive visualizations of large, high-dimensional datasets on the web](https://academic.oup.com/bioinformatics/article/34/8/1433/4657075)
 4. [Visualization of very large high-dimensional data sets as minimum spanning trees](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-0416-x)
 
+## 2. How it works?
+
 TMAP consists of 4 phases:
-- LSH forest indexing
+- [LSH forest](http://infolab.stanford.edu/~bawa/Pub/similarity.pdf) indexing
 - Construction of a c-approximate k-nearest neighbor graph
 - Calculation of a minimum spanning tree ([MST](https://en.wikipedia.org/wiki/Minimum_spanning_tree)) of the c-approximate k-nearest neighbor graph
 - Generation of a graph layout for the resulting MST
 
-The first two steps is designed for big data setting and can be relaced by other k-nearest neighbor algorithm (e.g., hierarchial clustering). In the resulting graph, the nodes are molecules (or other entities) and the edges are weighted by the distances between nodes. In the 3rd step, a tree is basicly a graph wihch doest not contrain cycle. A [MST](https://en.wikipedia.org/wiki/Minimum_spanning_tree) is the tree has the minimum sum of edge weights. The MST is ready for visualization. In the last step, we choose a layout to visualize the MST.
+The first two steps are designed for big data setting and can be replaced by other k-nearest neighbor algorithms. In the resulting graph, the nodes are molecules (or other entities) and the edges are weighted by the distances between nodes. In the 3rd step, a tree is basicly a graph wihch doest not contrain cycle. A [MST](https://en.wikipedia.org/wiki/Minimum_spanning_tree) is the tree has the minimum sum of edge weights. The MST is ready for visualization. In the last step, we choose a layout to visualize the MST.
 
-
-## 2. Basic
+## 2. Code Walkthrough
 
 ### Packages
 
 Installation of (1) RDKit (2) [TMAP](http://tmap.gdb.tools/) (3) [MHFP](https://github.com/reymond-group/mhfp) and (4) [Faerun](https://github.com/reymond-group/faerun-python).
 
-```python
+```
 conda install -c rdkit rdkit
 conda install -c tmap tmap
 pip install mhfp
@@ -164,7 +165,7 @@ x, y, s, t, _ = tmap.layout_from_lsh_forest(lf)
 # Now plot the data
 faerun = Faerun(view="front", coords=False)
 faerun.add_scatter(
-    "ESOL",
+    "ESOL_Basic",
     {   "x": x, 
         "y": y, 
         "c": list(df.logSolubility.values), 
@@ -172,19 +173,31 @@ faerun.add_scatter(
     point_scale=5,
     colormap = ['rainbow'],
     has_legend=True,
+    legend_title = ['ESOL (mol/L)'],
     categorical=[False],
     shader = 'smoothCircle'
 )
 
-faerun.add_tree("ESOL_tree", {"from": s, "to": t}, point_helper="ESOL")
+faerun.add_tree("ESOL_Basic_tree", {"from": s, "to": t}, point_helper="ESOL_Basic")
 
 # Choose the "smiles" template to display structure on hover
-faerun.plot(template="smiles", notebook_height=750)
+faerun.plot('ESOL_Basic', template="smiles", notebook_height=750)
 ```
 
-A screen capture of the interactive plot.
 
-![png](/images/TMAP/Capture_1.PNG)
+
+<iframe
+    width="100%"
+    height="750"
+    src="/images/TMAP/ESOL_Basic.html"
+    frameborder="0"
+    allowfullscreen
+></iframe>
+
+
+
+
+<a href='/images/TMAP/ESOL_Basic.html' target='_blank'>/images/TMAP/ESOL_Basic.html</a><br>
 
 
 ## 3. Advances
@@ -215,7 +228,7 @@ set(numrings)
 is_linear = [1 if r == 0 else 0 for r in numrings]
 ```
 
-The molecules in ESOL datast contains rings from 0 to 8. Now we are going to plot two labels. We need to change setting in `faerun.add_scatter`, information of multiple labels are passed as lists.
+The molecules in ESOL datast contains rings from 0 to 8. Now we are going to plot three labels. We need to change setting in `faerun.add_scatter`, information of multiple labels are passed as lists.
 
 
 ```python
@@ -239,12 +252,24 @@ faerun.add_scatter(
 faerun.add_tree("ESOL_tree", {"from": s, "to": t}, point_helper="ESOL")
 
 # Choose the "smiles" template to display structure on hover
-faerun.plot(template="smiles", notebook_height=750)
+faerun.plot('ESOL', template="smiles", notebook_height=750)
 ```
 
-A screen capture of the interactive plot.
 
-![png](/images/TMAP/Capture_2.PNG)
+
+<iframe
+    width="100%"
+    height="750"
+    src="/images/TMAP/ESOL.html"
+    frameborder="0"
+    allowfullscreen
+></iframe>
+
+
+
+
+<a href='/images/TMAP/ESOL.html' target='_blank'>/images/TMAP/ESOL.html</a><br>
+
 
 ## 3.2. Use different descriptors/fingerprints
 
@@ -297,7 +322,7 @@ x, y, s, t, _ = tmap.layout_from_lsh_forest(lf_ecfp4)
 # Now plot the data
 faerun = Faerun(view="front", coords=False)
 faerun.add_scatter(
-    "ESOL",
+    "ESOL_ECFP4",
     {   "x": x, 
         "y": y, 
         "c": [list(df.logSolubility.values), numrings, is_linear], 
@@ -311,12 +336,24 @@ faerun.add_scatter(
     shader = 'smoothCircle'
 )
 
-faerun.add_tree("ESOL_tree", {"from": s, "to": t}, point_helper="ESOL")
+faerun.add_tree("ESOL_ECFP4_tree", {"from": s, "to": t}, point_helper="ESOL_ECFP4")
 
 # Choose the "smiles" template to display structure on hover
-faerun.plot(template="smiles", notebook_height=750)
+faerun.plot("ESOL_ECFP4",template="smiles", notebook_height=750)
 ```
 
-A screen capture of the interactive plot.
 
-![png](/images/TMAP/Capture_3.PNG)
+
+<iframe
+    width="100%"
+    height="750"
+    src="/images/TMAP/ESOL_ECFP4.html"
+    frameborder="0"
+    allowfullscreen
+></iframe>
+
+
+
+
+<a href='/images/TMAP/ESOL_ECFP4.html' target='_blank'>/images/TMAP/ESOL_ECFP4.html</a><br>
+
