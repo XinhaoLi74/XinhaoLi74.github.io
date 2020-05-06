@@ -25,7 +25,7 @@ Research Interests
 * Cheminformatics
 * Computational Toxicology
 * Machine Learning/Deep learning
-* Big Data Mining, Analysis, Visulzation	
+* Big Data Mining, Analysis, Visulzation
 * QSAR modeling
 * Computer-Aided Drug Discovery
 * Virtual Screening
