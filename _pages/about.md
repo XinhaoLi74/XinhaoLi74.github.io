@@ -26,7 +26,7 @@ Quantitative Structure–Activity Relationships (QSAR) are statistical, data-dri
 ![MolPMolFiT Overview](/images/MolPMolFiT.PNG)
 
 
-**SMILES Pair Encoding** (SPE) is a data-driven substructure tokenization algorithm for deep learning. SPE learns a vocabulary of high frequency SMILES substrings from ChEMBL and then tokenizes new SMILES into a sequence of tokens for deep learning models. SPE splits SMILES into human-readable and chemically explainable substrings and shows superior performances on both generative and predictive tasks compared to the atom-level tokenization. [ChemRxiv](https://doi.org/10.26434/chemrxiv.12339368.v1) [Github](https://github.com/XinhaoLi74/SmilesPE)
+**SMILES Pair Encoding** (SPE) is a data-driven substructure tokenization algorithm for deep learning. SPE learns a vocabulary of high frequency SMILES substrings from ChEMBL and then tokenizes new SMILES into a sequence of tokens for deep learning models. SPE splits SMILES into human-readable and chemically explainable substrings and shows superior performances on both generative and predictive tasks compared to the atom-level tokenization. [[ChemRxiv](https://doi.org/10.26434/chemrxiv.12339368.v1)] [[Github](https://github.com/XinhaoLi74/SmilesPE)]
 
 ![SPE Overview](/images/SPE.PNG)
 
