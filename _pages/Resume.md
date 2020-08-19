@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Resume"
+permalink: /Resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download PDF Version](http://XinhaoLi74.github.io/files/Xinhao_CV_202003.pdf)
+[Download PDF Version](http://XinhaoLi74.github.io/files/CV_Xinhao.pdf)
 ==
 
 Contact
@@ -18,16 +18,15 @@ E-mail: xli74@ncsu.edu
 
 Summary
 ======
-3rd year Ph.D. student in Chemistry. Experienced in applying machine learning techniques and cheminformatics for solving chemistry problems, e.g. molecular activity/propriety prediction. Well-versed in programming languages including Python and R. Proficient skills in chemical data mining, curation, analysis, visualization, and modeling. 
+Ph.D. candidate in Chemistry (expecting to graduate in Nov. 2020). Expertise in applying machine learning techniques and cheminformatics to solve chemistry problems, e.g., QSAR modeling. Well-versed in programming languages Python and R and machine learning toolkits such as PyTorch and Scikit-Learn. Proficient skills in chemical data mining, curation, analysis, visualization, and modeling. 
 
 Research Interests
 ======
 * Cheminformatics
-* Computational Toxicology
-* Machine Learning/Deep learning
-* Big Data Mining, Analysis, Visulzation
-* QSAR modeling
-* Computer-Aided Drug Discovery
+* QSAR/QSPR Modeling
+* Molecular Representation Learning (SMILES-based and Graph-based approaches)
+* Machine Learning/Deep Learning
+* Big Data Mining, Curation, Analysis, Visulzation and Modeling
 * Virtual Screening
 * Natural Language Processing
 
@@ -39,8 +38,9 @@ Research
     * Hierarchical QSAR: An effective ensemble modeling method that Integrating binary/multi classification and regression models for predicting acute oral systemic toxicity.
 
 
-* Chemical Data Curation and Validation:
-    * Molecular DataSets (MolDS): A toolkit (Python Package) for curating, standardizing and diagnosing Molecular Data Sets for benchmarking machine learning methods. (GitHub)
+* Python packages:
+    * SMILES Pair Encoding (SPE): a data-driven substructure tokenization algorithm for deep learning.
+    * Molecular DataSets (MolDS): A toolkit (Python Package) for curating, standardizing and diagnosing Molecular Data Sets for benchmarking machine learning methods.
 
 
 * Software Development:
@@ -48,7 +48,7 @@ Research
 
 Education
 ======
-* PhD in Chemistry	    North Carolina State University		    Raleigh, NC		    2017 – Current
+* PhD in Chemistry	    North Carolina State University		    Raleigh, NC		    2017 – 2020
 * MS in Chemistry	Beijing University of Chemical Technology	Beijing, China		2013 –2016
 * BS in Chemistry	Beijing University of Chemical Technology	Beijing, China		2009 –2013
     
@@ -66,11 +66,12 @@ Data Science Related Courses
 Publication
 ======
 1.	Xinhao Li, Nicole Kleinstreuer and Denis Fourches. Hierarchical Quantitative Structure–Activity Relationship Modeling Approach for Integrating Binary, Multiclass, and Regression Models of Acute Oral Systemic Toxicity. Chemical Research in Toxicology. 2020, 33, 353-366.
-2.	Xinhao Li and Denis Fourches. (2019): Inductive Transfer Learning for Molecular Activity Prediction: Next-Gen QSAR Models with MolPMoFiT. ChemRxiv.
-3.	Xinhao Li and Jiaxi Xu. (2017): Effects of the Microwave Power on the Microwave-assisted Esterification. Current Microwave Chemistry. 158-162.
-4.	Xinhao Li and Jiaxi Xu. (2017): Identification of Microwave Selective Heating Effort in an Intermolecular Reaction with Hammett Linear Relationship as a Molecular Level Probe. Current Microwave Chemistry. 339-346.
-5.	Xinhao Li and Jiaxi Xu. (2016): Determination on temperature gradient of different polar reactants in reaction mixture under microwave irradiation with molecular probe. Tetrahedron. 35, 5515-5520.
-6.	Shanyan Mo, Xinhao Li and Jiaxi Xu. (2014): In Situ-Generated Iodonium Ylides as Safe Carbene Precursors for the Chemoselective Intramolecular Buchner Reaction. J. Org. Chem. 19, 9186-9195.
+2.	Xinhao Li and Denis Fourches. Inductive Transfer Learning for Molecular Activity Prediction: Next-Gen QSAR Models with MolPMoFiT. J Cheminform 2020, 12, 27.
+3.	Xinhao Li and Denis Fourches. SMILES Pair Encoding: A Data-Driven Substructure Tokenization Algorithm for Deep Learning. ChemRxiv 2020
+4.	Xinhao Li and Jiaxi Xu. (2017): Effects of the Microwave Power on the Microwave-assisted Esterification. Current Microwave Chemistry. 158-162.
+5.	Xinhao Li and Jiaxi Xu. (2017): Identification of Microwave Selective Heating Effort in an Intermolecular Reaction with Hammett Linear Relationship as a Molecular Level Probe. Current Microwave Chemistry. 339-346.
+6.	Xinhao Li and Jiaxi Xu. (2016): Determination on temperature gradient of different polar reactants in reaction mixture under microwave irradiation with molecular probe. Tetrahedron. 35, 5515-5520.
+7.	Shanyan Mo, Xinhao Li and Jiaxi Xu. (2014): In Situ-Generated Iodonium Ylides as Safe Carbene Precursors for the Chemoselective Intramolecular Buchner Reaction. J. Org. Chem. 19, 9186-9195.
 
 Presentations
 ======
