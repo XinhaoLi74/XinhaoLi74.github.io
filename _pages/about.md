@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in  [Fourches's lab](https://www.fourches-laboratory.com/) in the Department of Chemistry at North Carolina State University in Raleigh, NC, USA. I am interested in applying machine learning, especially deep learning, techniques for solving challenging problems in chemistry, drug discovery and environmental toxicology. 
+PhD in cheminformatics. I am interested in applying machine learning, especially deep learning, techniques for solving challenging problems in chemistry, drug discovery and environmental toxicology. 
 
 My primary research interests involve:  
 - Quantitative Structure-Activity Relationships (QSAR) modeling.
